@@ -1,0 +1,52 @@
+* {
+    border: 1px 
+}
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+#content {
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.nav_link {
+    padding: 10px;
+    color: rgb(17, 15, 189);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+img {
+    width: 350px;
+}
+a  {
+    color:black
+}
+nav a:hover {
+    color:black;
+    
+}
+#main_title{
+    font-size: 3em;
+    color:black;
+    text-align: center;
+}
+#img_cont {
+    text-align: center;
+}
+p, h3 {
+    text-align: center;
+}
+#sub_title{
+    font-size: 1.5em;
+    color:red
+}
+footer {
+    color: white;
+    background-color: gray;
+    padding: 1em;
+}
