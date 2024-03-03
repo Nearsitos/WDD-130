@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     border: 1px 
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -15,14 +18,16 @@ nav {
     justify-content: center;
 }
 .nav_link {
-    padding: 10px;
-    color: rgb(17, 15, 189);
-    font-size: 20px;
+    padding: 20px;
+    background-color: Black;
+    color: white;
+    font-size: 25px;
     text-decoration: none;
     text-align: center;
 }
 img {
-    width: 350px;
+    width: 400px;
+    border: 3px solid black;
 }
 a  {
     color:black
@@ -35,19 +40,39 @@ nav a:hover {
     font-size: 3em;
     color:black;
     text-align: center;
+    font-family:"Lato";
 }
 #img_cont {
     text-align: center;
 }
-p, h3 {
+footer p, h3 {
     text-align: center;
+}
+main p{
+    font-family:"Montserrat";
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 20px 75px;
+    background-color: #415a77;
+    border: 3px solid black;
+    color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 #sub_title{
     font-size: 1.5em;
-    color:red
+    color:red;
+    font-family:"Montserrat";
+    text-decoration: underline;
 }
 footer {
+    font-size: 90%;
     color: white;
     background-color: gray;
-    padding: 1em;
+    padding: 3px 75px;
+    font-family:"Montserrat";
+
 }
