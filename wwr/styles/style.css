@@ -11,9 +11,9 @@
 
 nav {
     display: flex;
+    color: white;
     justify-content: space-evenly;
-    background-color: black;
-    opacity: .4;
+    align-items: center ;
 }
 
 nav a {
@@ -45,6 +45,8 @@ h2 {
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: rgba(0, 0, 0, .4);
+    
 }
 
 
@@ -52,8 +54,8 @@ header {
 
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    grid-template-columns: 2fr 5fr 1fr;
+    margin-top:  -155px;
 }
 
 #hero-box {
@@ -64,8 +66,8 @@ header {
 
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
+    grid-row: 1/4;
+    margin-top: 200px;
 }
 
 #hero-msg h1 {
@@ -97,7 +99,7 @@ main section {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .home-title {
