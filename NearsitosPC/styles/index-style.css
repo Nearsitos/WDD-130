@@ -5,15 +5,6 @@
     padding: 20px;
 }
 
-#title_and_image {
-    display: flex;
-    align-items: center;
-}
-
-#main_title {
-    margin-right: 10px;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
