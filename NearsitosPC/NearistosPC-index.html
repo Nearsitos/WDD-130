@@ -1,39 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NearsitosPC</title>
-    <link href="styles/index-style.css" rel="stylesheet">
+    <title>NearsitosPC - Home</title>
+    <link rel="stylesheet" href="styles/index-style.css">
+    <link rel="icon" href="images/cloud_logo.png" type="image/png"> <!-- Adding the logo to the tab -->
 </head>
 <body>
-    <div id="content">
-    <header>
-        <nav>
-            <a class="nav_link" href="NearistosPC-index.html">Home</a>
-            <a class="nav_link" href="NearsitosPC-site-plan.html">Site Plan</a>
-            <a class="nav_link" href="NearsitosPC-AboutUs.html">About us</a>
-            <a class="nav_link" href="NearsitosPC-Contatctus.html">Contact us</a>
-        </nav>
-    </header>
-    <main>
-        <div id="title_and_image">
-            <h1 id="main_title">NearsitosPC ©</h1>
-            <div id="img_cont">
-                <img src="images/logo.png" alt="A regular photo of Christopher Rubio" style="width: 100px; height: auto;">
+    <div class="top-half">
+        <header>
+            <div class="logo">
+                <a href="NearistosPC-index.html"><img src="images/cloud_logo.png" alt="NearsitosPC Logo"></a> <!-- Making the logo clickable -->
             </div>
-        </div>
-        <h3 id="sub_title">Text</h3>
-        <p>subtitle</p>
-        <h3 id="sub_title">Text</h3>
-        <p>subtitle</p>
-    </main>
-    <footer>
-        <p> &copy; 2024 - NearsitosPC -
-            <a href="https://www.churchofjesuschrist.org" target="_blank">Linktree</a>
-        </p>
-    </footer>
+            <div class="title">
+                <h1>NearsitosPC</h1> <!-- Website title -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="NearistosPC-index.html">HOME</a></li> <!-- Link to the Home page -->
+                    <li><a href="NearsitosPC-Store.html">STORE</a></li> <!-- Link to the Store page -->
+                    <li><a href="NearsitosPC-AboutUs.html">ABOUT US</a></li> <!-- Link to the About Us page -->
+                </ul>
+            </nav>
+            <div class="social-dropdown">
+                <a href="#" class="social-button" onclick="toggleSocialMenu()">
+                    <img src="images/social_icon.png" alt="Social Icon" width="20" height="20">
+                </a>
+                <div class="social-menu" id="socialMenu">
+                    <a href="https://facebook.com/profile.php?id=61557215919776"><img src="images/facebook_logo.png"></a>
+                    <a href="https://twitter.com/SoyNearsito"><img src="images/twitter_logo.png"></a>
+                    <a href="https://www.instagram.com/soynearsito"><img src="images/instagram_logo.png"></a>
+                    <a href="https://www.youtube.com/@soynearsito"><img src="images/youtube_logo.png"></a>
+                    <a href="https://www.twitch.tv/soynearsito"><img src="images/twitch_logo.png"></a>
+                    <a href="https://www.tiktok.com/@soynearsito"><img src="images/tiktok_logo.png"></a>
+                </div>
+            </div>
+            <a href="NearsitosPC-Store.html" class="store-button">
+                <button class="store-button">Store</button>
+            </a>            
+        </header>
     </div>
+    
+    <div class="bottom-half">
+        <main>
+            <section>
+                <h2>Main Content Area</h2>
+                <p>This is where your main content goes.</p>
+            </section>
+
+            <aside>
+                <div class="accent-box">
+                    <h3>Accent Box</h3>
+                    <p>This is an accent box to highlight important information.</p>
+                </div>
+            </aside>
+        </main>
+    </div>
+    <footer>
+        <div class="footer-section">
+            <h3>KNOW ABOUT US</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our Team</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>NEED ASSISTANCE</h3>
+            <ul>
+                <li><a href="#">Frequently Asked Questions</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>PAYMENT METHODS / SHIPPING</h3>
+            <ul>
+                <li><a href="#">Payment Methods</a></li>
+                <li><a href="#">Shipping Information</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+            </ul>
+        </div>
+        <div class="footer-section follow-us-section">
+            <h3>FOLLOW US</h3>
+            <ul>
+                <li><a href="https://facebook.com/profile.php?id=61557215919776"><img src="images/facebook_logo.png"> Facebook</a></li>
+                <li><a href="https://twitter.com/SoyNearsito"><img src="images/twitter_logo.png"> Twitter</a></li>
+                <li><a href="https://www.instagram.com/soynearsito"><img src="images/instagram_logo.png"> Instagram</a></li>
+                <li><a href="https://www.youtube.com/@soynearsito"><img src="images/youtube_logo.png"> Youtube</a></li>
+                <li><a href="https://www.twitch.tv/soynearsito"><img src="images/twitch_logo.png"> Twitch</a></li>
+                <li><a href="https://www.tiktok.com/@soynearsito"><img src="images/tiktok_logo.png"> Tiktok</a></li>
+            </ul>
+        </div>
+        <div class="footer-disclaimer">
+            <p>&copy; 2024 NearsitosPC. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleSocialMenu() {
+            var menu = document.getElementById("socialMenu");
+            menu.classList.toggle("show");
+        }
+    </script>
 </body>
+<script src="JavaScript/script.js"></script>
 </html>
