@@ -3,12 +3,11 @@ body {
     font-family: 'Inter', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 .top-half {
     /* Background image styling moved to inline style attribute */
-    height: 100vh;
+    height: 50vh;
 }
 
 .bottom-half {
@@ -21,10 +20,6 @@ header {
     padding: 20px;
     display: flex;
     align-items: center;
-}
-
-.header {
-    margin-left: 0; /* Ensure the header is not cut on the left */
 }
 
 .logo img {
@@ -164,7 +159,7 @@ footer {
     background-color: #04050c;
     padding: 30px;
     color: #ccc;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -230,65 +225,4 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 10px;
-}
-
-/* Product section styles */
-.product-section {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.product-images-container {
-    display: flex; /* Use flexbox for horizontal layout */
-    justify-content: center; /* Center items horizontally */
-    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-}
-
-.product-image {
-    max-width: 350px; /* Set the maximum width of each product image */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Add margin around each product image and center horizontally */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease; /* Add transition for hover effect */
-}
-
-.product-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-.product-image:hover {
-    transform: scale(1.05); /* Enlarge the image on hover */
-}
-
-.product-details {
-    margin-left: 20px;
-}
-
-.product-details h3 {
-    color: #14162E;
-}
-
-.product-details p {
-    color: #666;
-}
-
-.buy-button {
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #14162E;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.buy-button:hover {
-    background-color: #666;
-    color: white;
 }
